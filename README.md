@@ -1,8 +1,8 @@
-# Recipe Box
+# MJJ
 
 #### By: Mitchell Gantz, Jannon Sielaff and John Lenz
 
-An application to track machines and their engineers for a fictional factory.
+MJJ recipe management systems- upload, share and rate your favorite recipes!
 
 ## Technologies Used
 
@@ -51,19 +51,17 @@ dotnet tool install --global dotnet-ef --version 6.0.0
 }
 ```
 
-5. Create the database using the migrations in the Recipe Box project. Open your shell (e.g., Terminal or GitBash) to the production directory "ToDoList", and run `dotnet ef database update`. 
+5. Create the database using the migrations in the Recipe Box project. Open your shell (e.g., Terminal or GitBash) to the production directory "RecipeBox", and run `dotnet ef database update`. 
     - To optionally create a migration, run the command `dotnet ef migrations add MigrationName` where `MigrationName` is your custom name for the migration in UpperCamelCase. To learn more about migrations, visit the LHTP lesson [Code First Development and Migrations](https://www.learnhowtoprogram.com/c-and-net-part-time/many-to-many-relationships/code-first-development-and-migrations).
-6. Within the production directory "Recipe Box", run `dotnet watch run` in the command line to start the project in development mode with a watcher.
+6. Within the production directory "RecipeBox", run `dotnet watch run` in the command line to start the project in development mode with a watcher.
 4. Open the browser to _https://localhost:5001_. If you cannot access localhost:5001 it is likely because you have not configured a .NET developer security certificate for HTTPS. To learn about this, review this lesson: [Redirecting to HTTPS and Issuing a Security Certificate](https://www.learnhowtoprogram.com/lessons/redirecting-to-https-and-issuing-a-security-certificate).
 
 ## License
 
 **MIT License**
 
-Copyright (c) 2022 Mitchell Gantz, Jannon Sielaff and John Lenz
+Copyright (c) 2023 Mitchell Gantz, Jannon Sielaff and John Lenz
 
-> Co-authored-by: Mitchell Gantz <mgantz22@icloud.com>
-> Co-authored-by: John <john.lenz27@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
